@@ -1,13 +1,56 @@
-# GitHub Codespaces ♥️ Express
+# 🌐 Red Social Básica
 
-Welcome to your shiny new Codespace running Express! We've got everything fired up and running for you to explore Express.
+## 📋 Descripción del Proyecto
+Este proyecto es una red social básica construida con Node.js y GraphQL, ofreciendo funcionalidades esenciales para la interacción social en línea.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+## 🚀 Características Principales
+- 👤 Registro de usuarios
+- 🔐 Autenticación con JWT
+- 📝 Perfiles de usuario personalizables
+- 📢 Publicación de contenido (texto, imágenes, videos)
+- 👍 Interacciones (me gusta, comentarios, compartir)
+- 🤝 Sistema de seguimiento entre usuarios
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+## 🛠️ Tecnologías Utilizadas
+- Node.js
+- Express
+- GraphQL con Apollo Server
+- MongoDB con Mongoose
+- JWT para autenticación
 
-To run this application:
+## 🏗️ Estructura del Proyecto
+1. **Configuración del Servidor**
+    - Express y Apollo Server
+    - Conexión a MongoDB
 
-```
-npm start
-```
+2. **Esquema GraphQL**
+    - Definición de tipos (User, Post, Comment)
+    - Queries y Mutations
+
+3. **Resolvers de GraphQL**
+    - Lógica para consultas y mutaciones
+
+4. **Modelos de Datos (Mongoose)**
+    - Usuario
+    - Publicación
+    - Comentario
+
+5. **Autenticación**
+    - Implementación de JWT
+
+## 🔧 Pasos de Implementación
+1. Planificación del Proyecto
+2. Configuración Inicial
+3. Definición del Esquema GraphQL
+4. Creación de Resolvers
+5. Modelado de Datos
+6. Implementación de Autenticación
+7. Pruebas y Mejoras
+
+## 🔜 Próximos Pasos
+- Implementar seguimiento de usuarios
+- Añadir notificaciones en tiempo real
+- Desarrollar interfaz de usuario con React o Vue.js
+
+## 🌟 ¡Comienza tu viaje en el desarrollo de redes sociales!
+Este proyecto ofrece base para expandir habilidades en el desarrollo web.
