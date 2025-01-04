@@ -1,4 +1,4 @@
-# 🌐 Red Social Básica
+# 🌐 Red Social
 
 ## 📋 Descripción del Proyecto
 Este proyecto es una red social básica construida con Node.js y GraphQL, ofreciendo funcionalidades esenciales para la interacción social en línea.
