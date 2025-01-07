@@ -1,7 +1,7 @@
 # 🌐 Red Social
 
 ## 📋 Descripción del Proyecto
-Este proyecto es una red social básica construida con Node.js y GraphQL, ofreciendo funcionalidades esenciales para la interacción social en línea.
+Este proyecto es una red social básica construida con Node.js, ofreciendo funcionalidades esenciales para la interacción social.
 
 ## 🚀 Características Principales
 - 👤 Registro de usuarios
@@ -14,43 +14,34 @@ Este proyecto es una red social básica construida con Node.js y GraphQL, ofreci
 ## 🛠️ Tecnologías Utilizadas
 - Node.js
 - Express
-- GraphQL con Apollo Server
 - MongoDB con Mongoose
 - JWT para autenticación
 
 ## 🏗️ Estructura del Proyecto
 1. **Configuración del Servidor**
-    - Express y Apollo Server
+    - Express
     - Conexión a MongoDB
 
-2. **Esquema GraphQL**
-    - Definición de tipos (User, Post, Comment)
-    - Queries y Mutations
-
-3. **Resolvers de GraphQL**
-    - Lógica para consultas y mutaciones
-
-4. **Modelos de Datos (Mongoose)**
+2. **Modelos de Datos (Mongoose)**
     - Usuario
     - Publicación
     - Comentario
 
-5. **Autenticación**
+3. **Autenticación**
     - Implementación de JWT
 
 ## 🔧 Pasos de Implementación
 1. Planificación del Proyecto
 2. Configuración Inicial
-3. Definición del Esquema GraphQL
-4. Creación de Resolvers
-5. Modelado de Datos
-6. Implementación de Autenticación
-7. Pruebas y Mejoras
+3. Creación de Resolvers
+4. Modelado de Datos
+5. Implementación de Autenticación
+6. Pruebas y Mejoras
 
 ## 🔜 Próximos Pasos
 - Implementar seguimiento de usuarios
 - Añadir notificaciones en tiempo real
-- Desarrollar interfaz de usuario con React o Vue.js
+- Desarrollar interfaz de usuario con React
 
 ## 🌟 ¡Comienza tu viaje en el desarrollo de redes sociales!
 Este proyecto ofrece base para expandir habilidades en el desarrollo web.
