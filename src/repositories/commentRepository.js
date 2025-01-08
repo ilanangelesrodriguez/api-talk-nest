@@ -8,9 +8,9 @@ class CommentRepository {
     }
 
     async getCommentsByPost(postId) {
-        return await Comment.find({ id_publicacion: postId });
+        return await Comment.find({ id_publicacion: postId }).populate('id_usuario', 'nombre correo');
     }
-
 }
 
 export default new CommentRepository();
+
