@@ -8,11 +8,11 @@ class FollowRepository {
     }
 
     async getFollowing(userId) {
-        return await Follow.find({ id_usuario_seguidor: userId });
+        return await Follow.find({ id_usuario_seguidor: userId }).populate('id_usuario_seguido', 'nombre correo');
     }
 
     async getFollowers(userId) {
-        return await Follow.find({ id_usuario_seguido: userId });
+        return await Follow.find({ id_usuario_seguido: userId }).populate('id_usuario_seguidor', 'nombre correo');
     }
 }
 
