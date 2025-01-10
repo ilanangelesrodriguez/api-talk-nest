@@ -1,6 +1,5 @@
 # 🌐 Red Social
 
-## 📋 Descripción del Proyecto
 Este proyecto es una red social básica construida con Node.js, ofreciendo funcionalidades esenciales para la interacción social.
 
 ## 🚀 Características Principales
